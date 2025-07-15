@@ -1,58 +1,132 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Trilha de CSS - DIO</title>
+  <style>
+    /* Estilos básicos */
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    
+    header {
+      background: #104570;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    
+    .logo img {
+      max-width: 200px;
+    }
+    
+    h1 {
+      margin: 20px 0;
+    }
+    
+    button {
+      background: #E51C44;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    
+    main {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    
+    section {
+      margin: 40px 0;
+    }
+    
+    h2 {
+      color: #0078D7;
+      text-align: center;
+    }
+    
+    .module {
+      background: #f4f4f4;
+      padding: 15px;
+      margin: 10px 0;
+      border-left: 4px solid #0078D7;
+    }
+    
+    .module span {
+      font-weight: bold;
+      color: #0078D7;
+    }
+    
+    #transform-world {
+      background: #333;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+      font-weight: bold;
+      font-size: 24px;
+    }
+    
+    footer {
+      background: #25282B;
+      color: white;
+      text-align: center;
+      padding: 30px;
+    }
+    
+    footer a {
+      color: #0078D7;
+    }
+  </style>
 </head>
 <body>
-  <header class="banner">
-    <div class="banner-content">
-      <div class="logo">
-        <img src="assets/images/logo.png" title="Logotipo Trilha de CSS DIO" alt="Logotipo Trilha de CSS DIO">
-      </div>
-      <h1>Trilha de CSS da DIO</h1>
-      <p>A nova Trilha de CSS da DIO está disponível. Acesse já e aprenda do zero como desenvolver sites profissionais.</p>
-      <button>Quero me inscrever</button>
+  <header>
+    <div class="logo">
+      <img src="assets/images/logo.png" alt="Logo Trilha CSS DIO">
     </div>
+    <h1>Trilha de CSS da DIO</h1>
+    <p>A nova Trilha de CSS da DIO está disponível. Acesse já e aprenda do zero como desenvolver sites profissionais.</p>
+    <button>Quero me inscrever</button>
   </header>
+  
   <main>
     <section id="course-content">
       <h2>O que vou aprender?</h2>
-      <p>
-        Temos 3 módulos recheados de conteúdos do básico ao avançado para que você aprenda a 
-        desenvolver sites profissionais utilizando somente HTML e CSS: sem nenhuma biblioteca ou framework a mais.
-      </p>
-      <div class="modules-list">
-        <div class="module">
-          <span>Módulo 01:</span> primeiros passos com CSS
-        </div>
-        <div class="module">
-          <span>Módulo 02:</span> trabalhando com layouts no CSS
-        </div>
-        <div class="module">
-          <span>Módulo 03:</span> refinando os estilos CSS das nossas páginas
-        </div>
+      <p>Temos 3 módulos recheados de conteúdos do básico ao avançado para que você aprenda a desenvolver sites profissionais utilizando somente HTML e CSS.</p>
+      
+      <div class="module">
+        <span>Módulo 01:</span> primeiros passos com CSS
+      </div>
+      <div class="module">
+        <span>Módulo 02:</span> trabalhando com layouts no CSS
+      </div>
+      <div class="module">
+        <span>Módulo 03:</span> refinando os estilos CSS das nossas páginas
       </div>
     </section>
+    
     <section id="transform-world">
       <p>TRANSFORME O MUNDO COM A GENTE</p>
     </section>
+    
     <section id="professional-challenges">
       <h2>Evolua e encare novos desafios profissionais</h2>
-      <img src="assets/images/professional-challenges.png" title="Homem lendo depoimentos em um tablet" alt="Homem lendo depoimentos em um tablet">
-      <p>
-        Junte-se ao nosso ecossistema e transforme o mundo com a gente! Todos os dias dezenas de empresas 
-        acessam a nossa plataforma em busca dos talentos mais criativos, dinâmicos e colaborativos, 
-        além do conhecimento técnico. 
-        A nossa missão é te preparar para que você conecte-se com as melhores oportunidades.
-      </p>
+      <img src="assets/images/professional-challenges.png" alt="Homem lendo depoimentos">
+      <p>Junte-se ao nosso ecossistema e transforme o mundo com a gente! Todos os dias dezenas de empresas acessam a nossa plataforma em busca dos talentos mais criativos.</p>
     </section>
   </main>
+  
   <footer>
-    <img class="dio-logo" src="assets/images/dio-logo.png" title="Logotipo DIO com o texto make the change" alt="Logotipo DIO com o texto make the change">
-    <p>Acesse <a href="https://dio.me">dio.me</a> e se cadastre agora</p>
+    <img class="dio-logo" src="assets/images/dio-logo.png" alt="Logo DIO">
+    <p>Acesse <a href="https://dio.me">dio.me</a> e se cadastre agora (Autor:Flávio Henrique Cabral Da Silva)</p>
   </footer>
 </body>
 </html>
